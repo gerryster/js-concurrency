@@ -24,9 +24,18 @@
         circle.style.backgroundColor = event.target.value;
       }
 
+      function toggleCircleBorder(event) {
+        event.preventDefault();
+        var circle = document.querySelector('#circle');
+        if(circle.style.border) {
+          circle.style.border = '';
+        } else {
+          circle.style.border = '2px solid black';
+        }
+      }
+
       function burnCpuCycles(event) {
         event.preventDefault();
-        console.log("burnCpuCycles called");
         var max = 2000;
         for(var i = 0; i < max; i++) {
           console.log("i = " + i);
@@ -45,6 +54,7 @@
         <option value="green" selected>Green</option>
         <option value="blue">Blue</option>
       </select>
+      <button onClick="toggleCircleBorder(event)">Toggle Border</button>
       <div id="circle"></div>
       <button id="burnCpuCyclesButton" onClick="burnCpuCycles(event)">Burn CPU Cycles!</button>
     </form>
