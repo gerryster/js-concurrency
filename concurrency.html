@@ -37,10 +37,13 @@
       function burnCpuCycles(event) {
         event.preventDefault();
         var max = 2000;
-        for(var i = 0; i < max; i++) {
+        var counter = document.querySelector('#counter');
+
+        for(var i = 1; i <= max; i++) {
           console.log("i = " + i);
-          for(var j = 0; j < max; j++) {
-            for(var k = 0; k < max; k++) {}
+          //counter.textContent = i
+          for(var j = 1; j <= max; j++) {
+            for(var k = 1; k <= max; k++) {}
           }
         }
       }
@@ -57,6 +60,7 @@
       <button onClick="toggleCircleBorder(event)">Toggle Border</button>
       <div id="circle"></div>
       <button id="burnCpuCyclesButton" onClick="burnCpuCycles(event)">Burn CPU Cycles!</button>
+      <span id="counter"></span>
     </form>
   </body>
 </html>
