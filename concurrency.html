@@ -11,13 +11,29 @@
       width: 60px;
       background-color: green;
       margin-top: 15px;
+      margin-bottom: 15px;
       border-radius: 50%;
+     }
+
+     #burnCpuCyclesButton: {
      }
     </style>
     <script type="text/javascript">
       function changeColor(event) {
         var circle = document.querySelector('#circle');
         circle.style.backgroundColor = event.target.value;
+      }
+
+      function burnCpuCycles(event) {
+        event.preventDefault();
+        console.log("burnCpuCycles called");
+        var max = 2000;
+        for(var i = 0; i < max; i++) {
+          console.log("i = " + i);
+          for(var j = 0; j < max; j++) {
+            for(var k = 0; k < max; k++) {}
+          }
+        }
       }
     </script>
   </head>
@@ -29,7 +45,8 @@
         <option value="green" selected>Green</option>
         <option value="blue">Blue</option>
       </select>
-      <div id="circle">
+      <div id="circle"></div>
+      <button id="burnCpuCyclesButton" onClick="burnCpuCycles(event)">Burn CPU Cycles!</button>
     </form>
   </body>
 </html>
