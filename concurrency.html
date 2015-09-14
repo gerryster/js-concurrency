@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Concurrency</title>
+    <style type="text/css">
+     body {
+       margin: 30px;
+     }
+
+     #circle {
+      height: 60px;
+      width: 60px;
+      background-color: green;
+      margin-top: 15px;
+      border-radius: 50%;
+     }
+    </style>
+    <script type="text/javascript">
+      function changeColor(event) {
+        var circle = document.querySelector('#circle');
+        circle.style.backgroundColor = event.target.value;
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <label for="color">Color:</label>
+      <select name="color" onchange="changeColor(event);">
+        <option value="red">Red</option>
+        <option value="green" selected>Green</option>
+        <option value="blue">Blue</option>
+      </select>
+      <div id="circle">
+    </form>
+  </body>
+</html>
