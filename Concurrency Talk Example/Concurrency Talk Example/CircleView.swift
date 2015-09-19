@@ -15,7 +15,9 @@ class CircleView: UIView {
     @IBInspectable
     var lineWidth: CGFloat = 3 { didSet {setNeedsDisplay() } }
     @IBInspectable
-    var color: UIColor = UIColor.blueColor() { didSet { setNeedsDisplay() } }
+    var fillColor: UIColor = UIColor.greenColor() { didSet { setNeedsDisplay() } }
+    @IBInspectable
+    var borderColor: UIColor = UIColor.blackColor() { didSet { setNeedsDisplay() } }
     @IBInspectable
     var scale: CGFloat = 0.9 { didSet { setNeedsDisplay() } }
     
@@ -28,10 +30,12 @@ class CircleView: UIView {
     }
     
     override func drawRect(rect: CGRect) {
-        let facePath = UIBezierPath(arcCenter: faceCenter, radius: radius, startAngle: 0, endAngle: CGFloat(2*M_PI), clockwise: true)
-        facePath.lineWidth = lineWidth
-        color.set()
-        facePath.stroke()
+        let circlePath = UIBezierPath(arcCenter: faceCenter, radius: radius, startAngle: 0, endAngle: CGFloat(2*M_PI), clockwise: true)
+        circlePath.lineWidth = lineWidth
+        borderColor.set()
+        circlePath.stroke()
+        fillColor.set()
+        circlePath.fill()
     }
 
 }
