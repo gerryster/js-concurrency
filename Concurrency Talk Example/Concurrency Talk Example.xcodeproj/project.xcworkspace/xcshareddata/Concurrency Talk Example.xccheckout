@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8339C4EB-D8F6-4949-AC56-37A386918747</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Concurrency Talk Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9114089C62AC3DBCD5D76DD0AB65A1D1C9A3F8E2</key>
+		<string>github.com:gerryster/js-concurrency.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Concurrency Talk Example/Concurrency Talk Example.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9114089C62AC3DBCD5D76DD0AB65A1D1C9A3F8E2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:gerryster/js-concurrency.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9114089C62AC3DBCD5D76DD0AB65A1D1C9A3F8E2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9114089C62AC3DBCD5D76DD0AB65A1D1C9A3F8E2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>js-concurrency</string>
+		</dict>
+	</array>
+</dict>
+</plist>

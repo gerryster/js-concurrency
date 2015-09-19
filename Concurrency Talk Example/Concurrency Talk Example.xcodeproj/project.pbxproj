@@ -13,6 +13,7 @@
 		283FC1F01BA7285400FA7CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283FC1EF1BA7285400FA7CF5 /* Images.xcassets */; };
 		283FC1F31BA7285400FA7CF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283FC1F11BA7285400FA7CF5 /* LaunchScreen.xib */; };
 		283FC1FF1BA7285400FA7CF5 /* Concurrency_Talk_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FC1FE1BA7285400FA7CF5 /* Concurrency_Talk_ExampleTests.swift */; };
+		283FC2091BAA1A1600FA7CF5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FC2081BAA1A1600FA7CF5 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		283FC1F81BA7285400FA7CF5 /* Concurrency Talk ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concurrency Talk ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		283FC1FD1BA7285400FA7CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		283FC1FE1BA7285400FA7CF5 /* Concurrency_Talk_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency_Talk_ExampleTests.swift; sourceTree = "<group>"; };
+		283FC2081BAA1A1600FA7CF5 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				283FC1E81BA7285400FA7CF5 /* AppDelegate.swift */,
 				283FC1EA1BA7285400FA7CF5 /* ViewController.swift */,
 				283FC1EC1BA7285400FA7CF5 /* Main.storyboard */,
+				283FC2081BAA1A1600FA7CF5 /* CircleView.swift */,
 				283FC1EF1BA7285400FA7CF5 /* Images.xcassets */,
 				283FC1F11BA7285400FA7CF5 /* LaunchScreen.xib */,
 				283FC1E61BA7285400FA7CF5 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283FC2091BAA1A1600FA7CF5 /* CircleView.swift in Sources */,
 				283FC1EB1BA7285400FA7CF5 /* ViewController.swift in Sources */,
 				283FC1E91BA7285400FA7CF5 /* AppDelegate.swift in Sources */,
 			);
